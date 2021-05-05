@@ -1,0 +1,33 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  color: #413d4b;
+}
+.news__title {
+  margin: 70px 0 35px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+.news__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+.news__input {
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.news__input::placeholder {
+  color: #a09ea5;
+}
+.news__text-area {
+  height: 200px;
+}
+
+/*# sourceMappingURL=MainForm.css.map */

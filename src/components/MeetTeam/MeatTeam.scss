@@ -1,0 +1,102 @@
+.team {
+  height: 710px;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../images/teambg.png');
+  background-size: cover;
+  font-family: "Playfair Display", serif;
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .team__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 220px;
+      height: 310px;
+      border: 1px solid #9f9eb8;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+      margin: 15px;
+
+      &:hover {
+        transform: scale(1.2);
+        transition:  ease-in-out 0.8s;
+      }
+    }
+
+    .team__card-photo {
+      width: 220px;
+      height: 240px;
+      background-color: #fff;
+    }
+
+    .team__card-name {
+      color:white;
+      font-size: 14px;
+      margin: 5px ;
+    }
+
+    .team__card-speciality {
+      color: rgb(159,156,177);
+      font-size: 14px;
+    }
+
+    .team__join-us {
+      font-family: 'Roboto', sans-serif;
+      color: #f3f3f3;
+      font-size: 14px;
+      margin: 65px 0 0 0;
+    }
+
+  }
+
+.team__list {
+  width: 960px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+}
+@media screen and (min-width: 703px) and (max-width: 976px) {
+
+  .team {
+    height: 1050px;
+    background-size: cover;
+
+    .team__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 70%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 703px) {
+  .team {
+    height: 1680px;
+    background-size: cover;
+
+    .team__title {
+      font-size: 20px;
+    }
+
+    .team__paragraph {
+      font-size: 11px;
+    }
+
+    .team__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 70%;
+    }
+
+  }
+}

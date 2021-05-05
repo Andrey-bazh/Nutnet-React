@@ -1,0 +1,77 @@
+@import "src/styles/globalvar";
+.wrapper__main {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+.header {
+  background-color:$backgroundPurple;
+  height: 50px;
+
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__list {
+   display: flex;
+
+  }
+  .nav__item {
+    margin: 0 10px;
+
+    .nav__item--link {
+      font-family: Roboto,sans-serif;
+      font-size: 14px;
+    }
+  }
+
+
+
+}
+
+.header__content {
+  background-image: url('../../images/headerbg.png');
+  background-size: cover;
+  height: 620px;
+
+
+}
+.content__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.header__content {
+  padding-top: 160px;
+}
+.header__title {
+
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: white;
+  position: relative;
+
+  &::after {
+    background-color: #00e0d0;
+    content: "";
+    margin: 25px 0;
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    vertical-align: middle;
+    width: 50px;
+    top:40px;
+    left:210px;
+  }
+}
+
+.header__text {
+  text-align: center;
+  max-width: 775px;
+  color: white;
+}
+
+

@@ -1,0 +1,15 @@
+.ourstory__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ourstory__title {
+  text-align: center;
+}
+
+.ourstory__p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=Ourstory.css.map */
