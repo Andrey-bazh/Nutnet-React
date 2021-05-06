@@ -43,7 +43,7 @@ function Expertise() {
                 </div>
 
                 <div className="expertise__service">
-                    <div className="expertise__logo love"></div>
+                    <div className="expertise__logo heart"></div>
                     <p className="expertise__name">MADE WITH LOVE</p>
                     <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </div>
