@@ -10,6 +10,7 @@ import OurWorks from "./components/OurWorks/OurWorks";
 import { BrowserRouter as Router}  from "react-router-dom";
 import Reviews from "./components/Reviews/Reviews";
 import MainForm from "./components/MainForm/MainForm";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <OurWorks/>
         {/*<Reviews/>*/}
         <MainForm/>
+        <Footer/>
     </div>
       </Router>
   );
