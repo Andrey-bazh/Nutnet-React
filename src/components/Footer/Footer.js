@@ -42,13 +42,13 @@ function Footer() {
                         <input className="footer__input" type="email" placeholder="Subscribe our newsletter"/>
                         <button className="footer__submit-btn" type="submit"><img src={send}  alt="button" /></button>
                     </form>
-                    <ul className="footer__sm-items">
-                        <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon facebook"></div></Link></li>
-                        <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon twitter"></div></Link></li>
-                        <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon dribble"></div></Link></li>
-                        <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon instagram"></div></Link></li>
-                        <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon google"></div></Link></li>
-                        <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon youtube"></div></Link></li>
+                    <ul className="footer__social-items">
+                        <li className="footer__social-item"><Link className="footer__social-link" to="#"><div className="footer__social-icon facebook"></div></Link></li>
+                        <li className="footer__social-item"><Link className="footer__social-link" to="#"><div className="footer__social-icon twitter"></div></Link></li>
+                        <li className="footer__social-item"><Link className="footer__social-link" to="#"><div className="footer__social-icon dribble"></div></Link></li>
+                        <li className="footer__social-item"><Link className="footer__social-link" to="#"><div className="footer__social-icon instagram"></div></Link></li>
+                        <li className="footer__social-item"><Link className="footer__social-link" to="#"><div className="footer__social-icon google"></div></Link></li>
+                        <li className="footer__social-item"><Link className="footer__social-link" to="#"><div className="footer__social-icon youtube"></div></Link></li>
                     </ul>
                     <span className="footer__copyright">Copyright © 2021 - Tajem Creative</span>
                 </div>

@@ -22,7 +22,7 @@ function App() {
         <Expertise/>
         <MeatTeam/>
         <OurWorks/>
-        {/*<Reviews/>*/}
+        <Reviews/>
         <MainForm/>
         <Footer/>
     </div>

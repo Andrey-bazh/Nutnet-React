@@ -4,8 +4,8 @@ const ReviewsState = [
         Tenetur ut est exercitationem, explicabo perferendis voluptas quia saepe qui magni porro molestias sed cum odit. 
         Accusamus, nisi dignissimos. Praesentium corrupti maiores recusandae, inventore rem cum similique architecto vero voluptas placeat, 
         laudantium amet exercitationem, facere est eius! Unde consequatur eligendi quo amet.`,
-        name: "JUDIE HOPSE",
-        speciality: "DESIGNER",
+        name: "ANOTHER PERSONAGE",
+        speciality: "ANOTHER JOB",
     },
     {
         text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
