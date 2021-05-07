@@ -11,7 +11,7 @@ function MainForm() {
                 <input className="news__input" type="text" placeholder="Subject" required={true} name="subject" />
                 <textarea className="news__input news__text-area" form="form" required={true} placeholder="Your Massage" name="message" />
             </form>
-            <MainButton textButton='SUBMIT'/>
+            <MainButton сlassName='custom__btn-from' textButton='SUBMIT'/>
         </section>
     );
 }

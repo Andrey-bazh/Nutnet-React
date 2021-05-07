@@ -61,12 +61,12 @@
   background-position: -100px 0;
 }
 .expertise__service .expertise__logo.mobile {
-  background-position: -50px -54px;
+  background-position: -50px -50px;
 }
 .expertise__service .expertise__logo.search {
-  background-position: 0 0px;
+  background-position: 0 0;
 }
-.expertise__service .expertise__logo.games {
+.expertise__service .expertise__logo.game {
   background-position: -100px -50px;
 }
 .expertise__service .expertise__logo.heart {
@@ -80,52 +80,19 @@
 }
 .expertise__service .expertise__description {
   font-family: "Roboto", sans-serif;
-  color: #666666;
+  color: rgba(102, 102, 102, 0.8);
   font-size: 14px;
   margin: 20px 10px 0 10px;
 }
 
-@media screen and (min-width: 977px) {
-  .expertise__service:nth-child(3n) {
-    border-right: none;
-  }
-
-  .expertise__service:nth-child(4) {
-    border-bottom: none;
-  }
-
-  .expertise__service:nth-child(5) {
-    border-bottom: none;
-  }
-
-  .expertise__service:nth-child(6) {
-    border-bottom: none;
-  }
-}
 @media screen and (min-width: 658px) and (max-width: 976px) {
   .expertise {
     height: 1000px;
   }
-
-  .expertise__service:nth-child(2n) {
-    border-right: none;
-  }
-
-  .expertise__service:nth-child(5) {
-    border-bottom: none;
-  }
-
-  .expertise__service:nth-child(6) {
-    border-bottom: none;
-  }
 }
 @media screen and (max-width: 657px) {
   .expertise {
-    height: 1740px;
-  }
-
-  .expertise__service {
-    border-right: none;
+    height: 1750px;
   }
 }
 

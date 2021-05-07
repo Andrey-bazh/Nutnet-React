@@ -13,7 +13,7 @@ const Reviews = () => {
 
 
     return (
-        <div className='hello'></div>
+        <div className='reviews'></div>
 
     );
 };

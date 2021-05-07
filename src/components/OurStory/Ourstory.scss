@@ -1,3 +1,5 @@
+@import "../../styles/globalvar";
+
 .ourstory {
   &__inner {
     display: flex;
@@ -16,13 +18,13 @@
 
   &__title {
     color: rgb(65,61,75);
-    font-family: 'Playfair Display', serif;
+    font-family: $FPD;
     margin: 0;
   }
 
   &__description {
-    color: rgb(113,110,120);
-    font-family: 'Roboto', sans-serif;
+    color: $colorParagraph;
+    font-family: $FR;
     font-size: 14px;
   }
 

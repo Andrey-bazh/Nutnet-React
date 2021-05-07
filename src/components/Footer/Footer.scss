@@ -1,3 +1,4 @@
+@import "../../styles/globalvar";
 .footer {;
   max-width: 1600px;
   width: 100%;
@@ -11,7 +12,7 @@
     max-width: 960px;
     width: 100%;
     display: flex;
-    font-family: "Roboto", sans-serif;
+    font-family: $FR;
     margin: 70px 0 0 0;
   }
 
@@ -22,11 +23,11 @@
 
     }
   &__logo {
-    width: 128px;
+    width: 130px;
     height: 50px;
   }
   &__paragraph {
-    color:white;
+    color:$footerColor;
     margin: 30px 0 80px 0;
   }
   &__items {
@@ -35,12 +36,15 @@
     list-style: none;
   }
   &__title {
-    color: white;
+    color: $footerColor;
     font-size: 13px;
+  }
+  &__link {
+    color: $footerColor;
   }
 
 
-  .footer__address-icon {
+  &__address-icon {
     width: 16px;
     height: 19px;
     background-image: url('../../images/adress.png');
@@ -51,66 +55,64 @@
       background-position: 0 0;
     }
 
-    &.point {
+    &.geo {
       background-position: -16px 0;
     }
   }
 
-  .footer__address-container {
+  &__address-container {
     display: flex;
     margin: 30px 0 0 0;
   }
 
-  .footer__tel-container {
-    flex-wrap: wrap;
+  &__tel-container {
     display: flex;
-    margin: 20px 0;
+    margin: 30px 0;
   }
 
 
-  .footer__address {
-    color: white;
+  &__address {
+    color: $footerColor;
     max-width: 245px;
     margin: 0;
     font-style: normal;
   }
 
-  .footer__tel {
+  &__tel {
     max-width: 245px;
     margin: 0;
     text-decoration: none;
-    color: white;
+    color: $footerColor;
   }
 
-  .footer__form {
+  &__form {
     margin: 35px 0 27px 0;
     display: flex;
   }
 
-  .footer__input {
+  &__input {
     font-size: 14px;
-    font-weight: 700;
     max-width: 210px;
-    width: 80%;
+    width: 100%;
     height: 45px;
     margin: 0 10px 0 0;
-    padding: 0 16px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 15px;
+    border: 1px solid rgba(155, 147, 173, 0.5);
     background-color: transparent;
-    color: rgba(255,255,255,.75);
+    color: rgba(165, 161, 161, 0.8);
 
   }
 
-  .footer__submit-btn {
+  &__submit-btn {
     width: 70px;
     height: 47px;
     color: #9f98b2;
-    background-color: #9f98b2;
+    background-color: rgb(161,153,180);
     outline: 0;
     border: none;
   }
 
-  .footer__social-items {
+  &__social-items {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -118,39 +120,39 @@
     padding: 0;
   }
 
-  .footer__social-icon {
+  &__social-icon {
     width: 35px;
     height: 35px;
-    margin: 0 8px 0 0;
+    margin: 0 10px 0 0;
     background: url('../../images/social.png') no-repeat;
 
     &.facebook {
-      background-position: 0 -3px;
+      background-position: 0 -5px;
     }
 
     &.twitter {
-      background-position: -43px -3px;
+      background-position: -45px -5px;
     }
 
     &.dribble {
-      background-position: -87px -3px;
+      background-position: -85px -5px;
     }
 
     &.instagram {
-      background-position: -130px -3px;
+      background-position: -130px -5px;
     }
 
     &.google {
-      background-position: -172px -3px;
+      background-position: -170px -5px;
     }
 
     &.youtube {
-      background-position: -216px -3px;
+      background-position: -215px -5px;
     }
   }
 
-  .footer__copyright {
-    color: white;
+  &__copyright {
+    color: $footerColor;
     margin-top: 62px;
     text-align: right;
   }

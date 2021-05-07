@@ -16,7 +16,7 @@
   margin: 0;
 }
 .ourstory__description {
-  color: #716e78;
+  color: rgba(102, 102, 102, 0.8);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }

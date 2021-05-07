@@ -9,7 +9,7 @@ function Footer() {
         <footer className="footer" >
             <div className="footer__container">
                 <div className="footer__block">
-                    <img className="footer__logo" src={logo} alt="logotype" />
+                    <img className="footer__logo" src={logo} alt="logo" />
                     <p className="footer__paragraph">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
 
                     <ul className="footer__items">
@@ -23,7 +23,7 @@ function Footer() {
                 <div className="footer__block">
                     <h3 className="footer__title">OUR STUDIO</h3>
                     <address className="footer__address-container">
-                        <div className="footer__address-icon point"></div>
+                        <div className="footer__address-icon  geo"></div>
                         <p className="footer__address">
                             Ruko cucruk, Jl. Radio luar dalem jos
                             No.12 - 13, Kalideres - Jakarta Barat
