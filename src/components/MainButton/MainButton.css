@@ -1,8 +1,9 @@
 .btn__main {
+  font-family: "Hammersmith One", sans-serif;
   padding: 10px;
   font-size: 16px;
   text-align: center;
-  color: #00e0d0;
+  color: rgba(0, 224, 208, 0.9);
   border: 1px solid #00e0d0;
   min-width: 120px;
   min-height: 40px;

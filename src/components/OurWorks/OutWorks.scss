@@ -1,3 +1,5 @@
+@import "../../styles/globalvar";
+
 .our-works {
   max-width: 1600px;
   width: 100%;
@@ -5,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #413d4b;
 
   &__container {
     max-width: 960px;
@@ -19,7 +20,7 @@
   &__title {
     margin-left: 10px;
     font-size: 22px;
-    font-family: "Playfair Display", serif;
+    font-family: $FPD;
     font-weight: 700;
   }
 

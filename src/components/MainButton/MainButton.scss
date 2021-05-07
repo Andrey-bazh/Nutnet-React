@@ -1,8 +1,11 @@
+@import "../../styles/globalvar";
+
 .btn__main {
+  font-family: $FHammerOne;
   padding: 10px;
   font-size: 16px;
   text-align: center;
-  color: #00e0d0;
+  color: $colorbtn;
   border: 1px solid #00e0d0;
   min-width: 120px;
   min-height: 40px;

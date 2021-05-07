@@ -1,5 +1,6 @@
+@import "../../styles/globalvar";
 .section-header {
-    font-family: 'Playfair Display', serif;
+    font-family: $FPD;
     position: relative;
     text-align: center;
     margin-bottom: 25px;
