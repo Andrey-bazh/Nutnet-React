@@ -10,8 +10,7 @@ const menuList = [
     { link: 'https://github.com', title: 'TEAMS'},
     { link: 'https://github.com', title: 'WORKS'},
     { link: 'https://github.com', title: 'PEOPLE SAY'},
-    { link: 'https://github.com', title: 'CONTACT'},
-    
+    { link: 'https://github.com', title: 'CONTACT'}
 ];
 
 
