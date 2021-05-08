@@ -1,17 +1,63 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "src/styles/globalvar";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   c:\users\swaga\onedrive\рабочий стол\nreact\src\components\header\header.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"src/styles/globalvar\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   c:\\users\\swaga\\onedrive\\\440 \430 \431 \43e \447 \438 \439  \441 \442 \43e \43b \\nreact\\src\\components\\header\\header.scss 1:9  root stylesheet";
+.wrapper__main {
+  max-width: 960px;
+  margin: 0 auto;
 }
+
+.header {
+  background-color: #382d5e;
+  height: 50px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav__list {
+  display: flex;
+}
+.header .nav__item {
+  margin: 0 10px;
+}
+.header .nav__item .nav__item--link {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+.header .nav__item .nav__item--link:hover {
+  color: #00e0d1;
+}
+
+.header__content {
+  background-image: url("../../images/headerbg.png");
+  background-size: cover;
+  height: 620px;
+}
+
+.content__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__content {
+  padding-top: 160px;
+}
+
+.header__title {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: white;
+  position: relative;
+}
+
+.header__text {
+  text-align: center;
+  max-width: 775px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__item {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

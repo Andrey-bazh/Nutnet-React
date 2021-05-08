@@ -1,3 +1,10 @@
+import avatar1 from '../../images/reviewer1.png'
+import avatar2 from '../../images/reviewer2.png'
+import avatar3 from '../../images/reviewer3.png'
+import avatar4 from '../../images/reviewer4.png'
+import avatar5 from '../../images/reviewer5.png'
+
+
 const ReviewsState = [
     {
         comment: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -6,6 +13,7 @@ const ReviewsState = [
         laudantium amet exercitationem, facere est eius! Unde consequatur eligendi quo amet.`,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
+        avatar: avatar1
     },
     {
         comment: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -13,6 +21,7 @@ const ReviewsState = [
 `,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
+        avatar: avatar2
     },
 
     {
@@ -24,6 +33,7 @@ const ReviewsState = [
           non mauris vitae erat consequat auctor eu in elit.`,
         name: "JANE GALADRIEL",
         speciality: "CEO TENGKUREP",
+        avatar: avatar3
     },
 
     {
@@ -32,6 +42,7 @@ const ReviewsState = [
 `,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
+        avatar: avatar4
     },
     {
         comment: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -39,6 +50,7 @@ const ReviewsState = [
 `,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
+        avatar: avatar5
     },
 ];
 

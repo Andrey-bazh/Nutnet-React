@@ -63,9 +63,9 @@ const OurStory = () => {
 
     return (
         <>
-            <section className='ourstory'>
+            <section className='ourstory' id='about'>
                 <div className="wrapper__main">
-                    <div className="ourstory__inner">
+                    <div className="ourstory__container">
                         <div className='ourstory__image-container'>
                             <img className='ourstory__image' src={figlogo} alt="biglogo" />
                         </div>

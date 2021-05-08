@@ -3,7 +3,7 @@ import MainButton from "../MainButton/MainButton";
 
 function MainForm() {
     return (
-        <section className="news">
+        <section className="news" >
             <h2 className="news__title">GIVE US A GOOD NEWS</h2>
             <form className="news__form" name="form" >
                 <input className="news__input" type="text" placeholder="Name" required={true} name="name" />

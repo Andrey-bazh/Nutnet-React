@@ -5,7 +5,7 @@ import MainButton from "../MainButton/MainButton";
 
 function OurWorks() {
     return (
-        <section className="our-works">
+        <section className="our-works" id='work'>
             <div className="our-works__container">
                 <h2 className="our-works__title">OUR WORKS</h2>
                 <Link className="our-works__link" to="/">See All Project in dribbble

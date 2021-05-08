@@ -1,7 +1,5 @@
 import React from "react";
 import './Expertise.scss'
-import '../TitleComponent/TitleComponent'
-import TitleComponent from "../TitleComponent/TitleComponent";
 
 
 function Expertise() {

@@ -12,6 +12,7 @@
   outline-style: none;
   cursor: pointer;
   margin-top: 50px;
+  margin-bottom: 25px;
 }
 .btn__main:hover {
   background-color: #f1ecdf;

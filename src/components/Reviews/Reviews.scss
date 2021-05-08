@@ -1,11 +1,76 @@
+@import "../../styles/globalvar";
 .reviews {
   height: 500px;
   position: relative;
   background-image: url("../../images/reviewsbg.png");
   background-size: cover;
+  display: flex;
+  justify-content: center;
 
-  &__quotes{
-//??
+
+  .content__wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
+
+.review{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__quotes {
+    color: #f1f1f1;
+    font-family:$FPD ;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  &__comment {
+    font-family: $FPD;
+    color: $commentColor;
+    text-align: center;
+
+  }
+  &__name {
+    font-family: $FR;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  &__speciality{
+    font-family: $FR;
+    font-size: 13px;
+    color:$commentColor ;
+    text-align: center;
+  }
+}
+
+.review__container {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.avatar__items {
+  display: flex;
+  justify-content: center;
+
+}
+
+.current__avatar-image {
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+
+  &:hover {
+    transition: all 0.6s;
+    transform: scale(1.3);
+  }
+}
+
 
