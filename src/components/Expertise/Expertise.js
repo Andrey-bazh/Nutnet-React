@@ -13,37 +13,43 @@ function Expertise() {
                 <div className="expertise__service">
                     <div className="expertise__logo development"></div>
                     <p className="expertise__name">WEB DESIGN &amp; DEVELOPMENT</p>
-                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                        vel velit auctor aliquet Aenean.</p>
                 </div>
 
                 <div className="expertise__service">
                     <div className="expertise__logo branding"></div>
                     <p className="expertise__name">BRANDING IDENTITY</p>
-                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                        vel velit auctor aliquet Aenean.</p>
                 </div>
 
                 <div className="expertise__service">
                     <div className="expertise__logo mobile"></div>
                     <p className="expertise__name">MOBILE APP</p>
-                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                        vel velit auctor aliquet Aenean.</p>
                 </div>
 
                 <div className="expertise__service">
                     <div className="expertise__logo search"></div>
                     <p className="expertise__name">SEARCH ENGINE OPTIMIZATION</p>
-                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                        vel velit auctor aliquet Aenean.</p>
                 </div>
 
                 <div className="expertise__service">
                     <div className="expertise__logo game"></div>
                     <p className="expertise__name">GAME DEVELOPMENT</p>
-                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                        vel velit auctor aliquet Aenean.</p>
                 </div>
 
                 <div className="expertise__service">
                     <div className="expertise__logo heart"></div>
                     <p className="expertise__name">MADE WITH LOVE</p>
-                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                    <p className="expertise__description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                        vel velit auctor aliquet Aenean.</p>
                 </div>
 
             </div>

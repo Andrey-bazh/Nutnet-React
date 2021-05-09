@@ -35,35 +35,12 @@
 }
 
 .our-works__items {
-  width: 100%;
-  min-height: 400px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 266.6px);
-  grid-template-rows: repeat(auto-fill, 200px);
-  justify-content: center;
+  display: flex;
 }
 
-.our-works__item {
-  background-color: grey;
-  align-self: stretch;
-}
-.our-works__item:nth-child(1) {
-  background-color: #cac6c6;
-}
-.our-works__item:nth-child(2n) {
-  background-color: #444242;
-}
-.our-works__item:nth-child(3n) {
-  background-color: #773b3b;
-}
-.our-works__item:nth-child(4n) {
-  background-color: #6c773b;
-}
-.our-works__item:nth-child(5n) {
-  background-color: #5c3b77;
-}
-.our-works__item:nth-child(6n) {
-  background-color: #c99f62;
+.our-works__item-img {
+  width: 270px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=OutWorks.css.map */

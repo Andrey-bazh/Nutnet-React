@@ -17,7 +17,7 @@
   }
 
   &__title {
-    color: rgb(65,61,75);
+    color: rgb(65, 61, 75);
     font-family: $FPD;
     margin: 0;
   }
@@ -55,21 +55,21 @@
   border-radius: 4px;
   height: 300px;
   width: 450px;
-  box-shadow: 0px 1px 5px 0 rgba(0,0,0, 0.25);
+  box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &__title-container {
     height: 30px;
-    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
   }
 
   &__actions-container {
     height: 35px;
-    border-top: 1px solid rgba(0,0,0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: flex-end;

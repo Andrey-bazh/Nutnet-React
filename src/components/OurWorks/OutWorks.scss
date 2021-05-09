@@ -38,39 +38,14 @@
     height: 15px;
     margin-left: 10px;
   }
+
 }
 
 .our-works__items {
-
-  width: 100%;
-  min-height: 400px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 266.6px);
-  grid-template-rows: repeat(auto-fill, 200px);
-  justify-content: center;
+  display: flex;
 }
 
-.our-works__item {
-  background-color: grey;
-  align-self: stretch;
-
-  &:nth-child(1) {
-    background-color: rgb(202, 198, 198);
-  }
-
-  &:nth-child(2n) {
-    background-color: rgb(68, 66, 66);
-  }
-  &:nth-child(3n) {
-    background-color: rgb(119, 59, 59);
-  }
-  &:nth-child(4n) {
-    background-color: rgb(108, 119, 59);
-  }
-  &:nth-child(5n) {
-    background-color: rgb(92, 59, 119);
-  }
-  &:nth-child(6n) {
-    background-color: rgb(201, 159, 98);
-  }
+.our-works__item-img {
+  width: 270px;
+  height: 200px;
 }

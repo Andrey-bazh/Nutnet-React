@@ -1,7 +1,7 @@
-import React  from 'react';
+import React from 'react';
 import './MainButton.scss';
 
-const MainButton = ({ textButton }) => {
+const MainButton = ({textButton}) => {
     return (
 
         <button className="btn__main">{textButton}</button>
@@ -9,4 +9,4 @@ const MainButton = ({ textButton }) => {
     );
 }
 
-export default MainButton ;
+export default MainButton;

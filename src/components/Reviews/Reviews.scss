@@ -1,4 +1,5 @@
 @import "../../styles/globalvar";
+
 .reviews {
   height: 500px;
   position: relative;
@@ -15,14 +16,14 @@
   }
 }
 
-.review{
+.review {
   display: flex;
   justify-content: center;
   align-items: center;
 
   &__quotes {
     color: #f1f1f1;
-    font-family:$FPD ;
+    font-family: $FPD;
     font-size: 100px;
     text-align: center;
   }
@@ -33,6 +34,7 @@
     text-align: center;
 
   }
+
   &__name {
     font-family: $FR;
     font-size: 14px;
@@ -41,10 +43,11 @@
     padding-top: 50px;
     padding-bottom: 15px;
   }
-  &__speciality{
+
+  &__speciality {
     font-family: $FR;
     font-size: 13px;
-    color:$commentColor ;
+    color: $commentColor;
     text-align: center;
   }
 }
@@ -56,6 +59,7 @@
   flex-direction: column;
 
 }
+
 .avatar__items {
   display: flex;
   justify-content: center;

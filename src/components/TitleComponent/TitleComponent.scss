@@ -1,28 +1,29 @@
 @import "../../styles/globalvar";
-.section-header {
-    font-family: $FPD;
-    position: relative;
-    text-align: center;
-    margin-bottom: 25px;
-    
-    &__text, &__description {
-        color: white;
-    }
 
-    &__text {
-        font-size: 32px;
-        margin: 0;
-    }
-  
-    &::after {
-      background-color: #00e0d0;
-      content: "";
-      margin: 25px 0;
-      height: 1px;
-      width: 50px;
-      position: absolute;
-      bottom: -40px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+.section-header {
+  font-family: $FPD;
+  position: relative;
+  text-align: center;
+  margin-bottom: 25px;
+
+  &__text, &__description {
+    color: white;
   }
+
+  &__text {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  &::after {
+    background-color: #00e0d0;
+    content: "";
+    margin: 25px 0;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

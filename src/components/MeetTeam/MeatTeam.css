@@ -6,17 +6,17 @@
   background-size: cover;
   font-family: "Playfair Display", serif;
 }
-.team_container .section-header__text {
+.team__container .section-header__text {
   font-size: 26px;
   font-weight: 500;
   padding-top: 50px;
 }
-.team_container {
+.team__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.team_container .team__card {
+.team__container .team__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,25 +27,25 @@
   font-family: "Roboto", sans-serif;
   margin: 15px;
 }
-.team_container .team__card:hover {
+.team__container .team__card:hover {
   transform: scale(1.2);
   transition: ease-in-out 0.8s;
 }
-.team_container .team__card-photo {
+.team__container .team__card-photo {
   width: 220px;
   height: 240px;
   background-color: #fff;
 }
-.team_container .team__card-name {
+.team__container .team__card-name {
   color: white;
   font-size: 14px;
   margin: 5px;
 }
-.team_container .team__card-speciality {
+.team__container .team__card-speciality {
   color: #9f9cb1;
   font-size: 14px;
 }
-.team_container .team__join-us {
+.team__container .team__join {
   font-family: "Roboto", sans-serif;
   color: #f3f3f3;
   font-size: 14px;
@@ -72,20 +72,30 @@
 }
 @media screen and (max-width: 703px) {
   .team {
-    height: 1680px;
+    height: 1000px;
     background-size: cover;
   }
-  .team .team__title {
+  .team__title {
     font-size: 20px;
   }
-  .team .team__paragraph {
+  .team__paragraph {
     font-size: 11px;
   }
-  .team .team__list {
+  .team__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 70%;
+  }
+}
+@media screen and (max-width: 495px) {
+  .team {
+    height: 1800px;
+  }
+
+  .team__container .section-header__text {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 50px;
   }
 }
 

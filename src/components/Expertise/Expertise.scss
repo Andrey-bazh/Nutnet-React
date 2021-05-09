@@ -24,6 +24,7 @@
     margin: 66px 0 15px 0;
     font-weight: 700;
   }
+
   &__paragraph {
     display: flex;
     flex-direction: column;
@@ -34,7 +35,7 @@
 
 
     &::after {
-      background-color: rgb(198,196,201);
+      background-color: rgb(198, 196, 201);
       content: "";
       margin: 25px 0;
       height: 2px;
@@ -45,8 +46,7 @@
       transform: translateX(-50%);
     }
 
-}
-
+  }
 
 
 }
@@ -107,7 +107,6 @@
 }
 
 
-
 @media screen and (min-width: 658px) and (max-width: 976px) {
   .expertise {
     height: 1000px;
@@ -117,7 +116,12 @@
 
 @media screen and (max-width: 657px) {
   .expertise {
-    height: 1750px;
+    height: 1000px;
   }
 
+}
+@media screen and (max-width: 597px){
+  .expertise {
+    height: 1800px;
+  }
 }

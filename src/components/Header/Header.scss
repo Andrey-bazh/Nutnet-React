@@ -1,11 +1,13 @@
 @import "../../styles/globalvar";
+
 .wrapper__main {
   max-width: 960px;
   margin: 0 auto;
 
 }
+
 .header {
-  background-color:$backgroundPurple;
+  background-color: $backgroundPurple;
   height: 50px;
 
 
@@ -15,22 +17,22 @@
   }
 
   .nav__list {
-   display: flex;
+    display: flex;
 
   }
+
   .nav__item {
     margin: 0 10px;
 
     .nav__item--link {
-      font-family: Roboto,sans-serif;
+      font-family: Roboto, sans-serif;
       font-size: 14px;
 
-      &:hover{
-        color:$colorhref;
+      &:hover {
+        color: $colorhref;
       }
     }
   }
-
 
 
 }
@@ -42,15 +44,18 @@
 
 
 }
+
 .content__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
 .header__content {
   padding-top: 160px;
 }
+
 .header__title {
 
   font-family: $FPD;
@@ -67,7 +72,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nav__item{
+  .nav__item {
     display: none;
   }
 }

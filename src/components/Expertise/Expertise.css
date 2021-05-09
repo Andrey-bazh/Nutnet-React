@@ -92,7 +92,12 @@
 }
 @media screen and (max-width: 657px) {
   .expertise {
-    height: 1750px;
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 597px) {
+  .expertise {
+    height: 1800px;
   }
 }
 
