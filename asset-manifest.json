@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Nutnet-React/static/css/main.6343bda9.chunk.css",
+    "main.css": "/Nutnet-React/static/css/main.664f7422.chunk.css",
     "main.js": "/Nutnet-React/static/js/main.d2f1ebb1.chunk.js",
     "main.js.map": "/Nutnet-React/static/js/main.d2f1ebb1.chunk.js.map",
     "runtime-main.js": "/Nutnet-React/static/js/runtime-main.1b37231a.js",
@@ -8,7 +8,7 @@
     "static/js/2.4a1596c9.chunk.js": "/Nutnet-React/static/js/2.4a1596c9.chunk.js",
     "static/js/2.4a1596c9.chunk.js.map": "/Nutnet-React/static/js/2.4a1596c9.chunk.js.map",
     "index.html": "/Nutnet-React/index.html",
-    "static/css/main.6343bda9.chunk.css.map": "/Nutnet-React/static/css/main.6343bda9.chunk.css.map",
+    "static/css/main.664f7422.chunk.css.map": "/Nutnet-React/static/css/main.664f7422.chunk.css.map",
     "static/js/2.4a1596c9.chunk.js.LICENSE.txt": "/Nutnet-React/static/js/2.4a1596c9.chunk.js.LICENSE.txt",
     "static/media/Expertise.scss": "/Nutnet-React/static/media/expertise.e76f9258.png",
     "static/media/figurelogo.c36510f7.png": "/Nutnet-React/static/media/figurelogo.c36510f7.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.1b37231a.js",
     "static/js/2.4a1596c9.chunk.js",
-    "static/css/main.6343bda9.chunk.css",
+    "static/css/main.664f7422.chunk.css",
     "static/js/main.d2f1ebb1.chunk.js"
   ]
 }
