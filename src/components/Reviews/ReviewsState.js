@@ -11,8 +11,8 @@ const ReviewsState = [
         Tenetur ut est exercitationem, explicabo perferendis voluptas quia saepe qui magni porro molestias sed cum odit. 
         Accusamus, nisi dignissimos. Praesentium corrupti maiores recusandae, inventore rem cum similique architecto vero voluptas placeat, 
         laudantium amet exercitationem, facere est eius! Unde consequatur eligendi quo amet.`,
-        name: "ANOTHER PERSONAGE",
-        speciality: "ANOTHER JOB",
+        name: "ANOTHER PERSONAGE1",
+        speciality: "ANOTHER JOB1",
         avatar: avatar1,
         id:1
     },
@@ -20,8 +20,8 @@ const ReviewsState = [
         comment: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.
 `,
-        name: "ANOTHER PERSONAGE",
-        speciality: "ANOTHER JOB",
+        name: "ANOTHER PERSONAGE2",
+        speciality: "ANOTHER JOB2",
         avatar: avatar2,
         id:2
     },
@@ -43,8 +43,8 @@ const ReviewsState = [
         comment: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.
 `,
-        name: "ANOTHER PERSONAGE",
-        speciality: "ANOTHER JOB",
+        name: "ANOTHER PERSONAGE4",
+        speciality: "ANOTHER JOB4",
         avatar: avatar4,
         id:4
     },
@@ -61,8 +61,8 @@ const ReviewsState = [
         Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.'
 `,
-        name: "ANOTHER PERSONAGE",
-        speciality: "ANOTHER JOB",
+        name: "ANOTHER PERSONAGE5",
+        speciality: "ANOTHER JOB5",
         avatar: avatar5,
         id:5
     },
