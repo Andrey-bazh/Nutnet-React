@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/nut-v2-task/static/css/main.f38d5f83.chunk.css",
+    "main.js": "/nut-v2-task/static/js/main.b26288b2.chunk.js",
+    "main.js.map": "/nut-v2-task/static/js/main.b26288b2.chunk.js.map",
+    "runtime-main.js": "/nut-v2-task/static/js/runtime-main.7e1336a1.js",
+    "runtime-main.js.map": "/nut-v2-task/static/js/runtime-main.7e1336a1.js.map",
+    "static/js/2.b5949191.chunk.js": "/nut-v2-task/static/js/2.b5949191.chunk.js",
+    "static/js/2.b5949191.chunk.js.map": "/nut-v2-task/static/js/2.b5949191.chunk.js.map",
+    "index.html": "/nut-v2-task/index.html",
+    "static/css/main.f38d5f83.chunk.css.map": "/nut-v2-task/static/css/main.f38d5f83.chunk.css.map",
+    "static/js/2.b5949191.chunk.js.LICENSE.txt": "/nut-v2-task/static/js/2.b5949191.chunk.js.LICENSE.txt",
+    "static/media/Expertise.scss": "/nut-v2-task/static/media/expertise.e76f9258.png",
+    "static/media/figurelogo.c36510f7.png": "/nut-v2-task/static/media/figurelogo.c36510f7.png",
+    "static/media/Footer.scss": "/nut-v2-task/static/media/social.6cbe0256.png",
+    "static/media/Header.scss": "/nut-v2-task/static/media/headerbg.fb46bb6e.png",
+    "static/media/reviewer3.f53ea335.png": "/nut-v2-task/static/media/reviewer3.f53ea335.png",
+    "static/media/Reviews.scss": "/nut-v2-task/static/media/reviewsbg.275bcf83.png",
+    "static/media/right-arrow.b7f95d22.svg": "/nut-v2-task/static/media/right-arrow.b7f95d22.svg",
+    "static/media/MeatTeam.scss": "/nut-v2-task/static/media/teambg.5e158762.png",
+    "static/media/Ourstory.scss": "/nut-v2-task/static/media/videobg.c1cb05a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e1336a1.js",
+    "static/js/2.b5949191.chunk.js",
+    "static/css/main.f38d5f83.chunk.css",
+    "static/js/main.b26288b2.chunk.js"
+  ]
+}
