@@ -30,7 +30,7 @@ const Header = () => {
             <header className='header '>
                 <div className="wrapper__main">
                     <div className="header__inner">
-                        <a>
+                        <a href='/'>
                             <img className='logo__img' src={logo} alt="logo"/>
                         </a>
                         <nav className="nav">

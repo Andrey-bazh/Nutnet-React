@@ -93,7 +93,7 @@ const OurStory = () => {
                     </button>
                 </div>
             </section>
-            {openModal && <Modal title="it's my modal" content="it's modal content" onClose={() => setOpenModal(false)}
+            {openModal && <Modal title="it's my modal" onClose={() => setOpenModal(false)}
                                  actions={videoModalActions} content={videoModalContent}/>}
         </>
     );

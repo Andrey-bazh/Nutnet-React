@@ -13,7 +13,8 @@ const ReviewsState = [
         laudantium amet exercitationem, facere est eius! Unde consequatur eligendi quo amet.`,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
-        avatar: avatar1
+        avatar: avatar1,
+        id:1
     },
     {
         comment: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -21,7 +22,8 @@ const ReviewsState = [
 `,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
-        avatar: avatar2
+        avatar: avatar2,
+        id:2
     },
 
     {
@@ -33,7 +35,8 @@ const ReviewsState = [
           non mauris vitae erat consequat auctor eu in elit.`,
         name: "JANE GALADRIEL",
         speciality: "CEO TENGKUREP",
-        avatar: avatar3
+        avatar: avatar3,
+        id:3
     },
 
     {
@@ -42,15 +45,26 @@ const ReviewsState = [
 `,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
-        avatar: avatar4
+        avatar: avatar4,
+        id:4
     },
     {
         comment: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Hic cum modi explicabo ipsum iste nisi praesentium, voluptatibus eius eaque? Voluptatum.'
 `,
         name: "ANOTHER PERSONAGE",
         speciality: "ANOTHER JOB",
-        avatar: avatar5
+        avatar: avatar5,
+        id:5
     },
 ];
 
